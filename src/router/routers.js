@@ -1,12 +1,12 @@
 import App from '../App'
-import { UserLayout, BasicLayout } from '@/layout'
+import { UserLayout, BasicLayout, DisplayLayout } from '@/layout'
 import { bxAnaalyse } from '@/core/icons'
 
 export const basicRouters = [{
 	path: '/',
 	name: "index",
 	component: App,
-  meta: { title: '首页' },
+	meta: { title: '首页' },
 	children: [
 		{
 			path: "",
@@ -17,7 +17,7 @@ export const basicRouters = [{
 			name: 'dashboard',
 			component: BasicLayout,
 			redirect: '/dashboard/workplace',
-      meta: { title: '仪表盘', keepAlive: true, icon: bxAnaalyse, permission: [ 'dashboard' ] },
+			meta: { title: '仪表盘', keepAlive: true, icon: bxAnaalyse, permission: [ 'dashboard' ] },
 			hidden: true,
 			children: [
 				{
@@ -40,7 +40,22 @@ export const basicRouters = [{
 			]
 		}
 	]
-}
+}]
+
+export const displayRouters = [
+	{
+		path: '/display',
+		name: "display",
+		component: App,
+		meta: { title: '首页' },
+		children: [
+			{
+				path: 'index',
+				name: 'index',
+				component: DisplayLayout
+			}
+		]
+	}
 ]
 
 export const userRouters = [

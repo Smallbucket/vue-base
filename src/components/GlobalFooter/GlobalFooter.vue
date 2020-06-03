@@ -16,7 +16,7 @@
     </div>
     <div class="copyright">
       Copyright
-      <a-icon type="copyright" /> 2020 <span>电工鞋出品</span>
+      <a-icon type="copyright" /> 2020 <span>YY出品</span>
     </div>
   </div>
 </template>

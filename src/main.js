@@ -5,7 +5,7 @@ import service from './service'
 
 import '@/core/AntDesign'
 import '@/core/lazyPlugin'
-import '@/core/permission' // permission control
+// import '@/core/permission' // permission control
 import '@/components/global.less'
 
 import moment from 'moment'; 

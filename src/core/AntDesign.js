@@ -41,7 +41,8 @@ import {
   message,
   notification,
 	Calendar,
-	Collapse
+	Collapse,
+  Timeline
 } from 'ant-design-vue'
 
 Vue.use(ConfigProvider)
@@ -84,6 +85,7 @@ Vue.use(Popconfirm)
 Vue.use(notification)
 Vue.use(Calendar)
 Vue.use(Collapse)
+Vue.use(Timeline)
 
 Vue.prototype.$confirm = Modal.confirm
 Vue.prototype.$message = message

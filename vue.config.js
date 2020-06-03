@@ -39,7 +39,7 @@ const vueConfig = {
     loaderOptions: {
       less: {
         modifyVars: {
-          // less vars£¬customize ant design theme
+          // less varsÂ£Â¬customize ant design theme
 
           // 'primary-color': '#F5222D',
           // 'link-color': '#F5222D',
@@ -53,7 +53,7 @@ const vueConfig = {
 
   devServer: {
     // development server port 8000
-    port: 8000
+    port: 8000,
     // If you want to turn on the proxy, please remove the mockjs /src/main.jsL11
     // proxy: {
     //   '/api': {
@@ -62,6 +62,8 @@ const vueConfig = {
     //     changeOrigin: true
     //   }
     // }
+    proxy: 'http://localhost:8000',
+    public: '192.168.116.129:8000'
   }
 }
 

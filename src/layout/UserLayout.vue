@@ -5,11 +5,11 @@
         <div class="header">
           <a href="/">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
-            <span class="title">达达计划</span>
+            <span class="title">XX计划</span>
           </a>
         </div>
         <div class="desc">
-          达达计划是一个记录您的待办事项的系统
+          XX计划是一个记录您的待办事项的系统
         </div>
       </div>
 
@@ -22,7 +22,7 @@
           <a href="_self">条款</a>
         </div>
         <div class="copyright">
-          Copyright &copy; 2020 电工鞋出品
+          Copyright &copy; 2020 YY出品
         </div>
       </div>
     </div>

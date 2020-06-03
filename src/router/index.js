@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import { userRouters } from './routers'
+import { userRouters, basicRouters } from './routers'
 import { routerMode } from '@/config/env'
 
 Vue.use(Router)
 
 const router = new Router({
-	routes: userRouters,
+	routes: basicRouters,
 	mode: routerMode,
 	strict: process.env.NODE_ENV !== 'production'
 })

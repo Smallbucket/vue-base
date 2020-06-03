@@ -1,5 +1,5 @@
 {
-  "name": "vue-plan",
+  "name": "vue-base",
   "version": "1.0.0",
   "description": "A plan application implemented with vue and related ecosystem.",
   "private": true,
@@ -11,7 +11,7 @@
     "test": "vue-cli-service test:unit"
   },
   "keywords": [
-    "vue-plan",
+    "vue-base",
     "plan",
     "todolist"
   ],
